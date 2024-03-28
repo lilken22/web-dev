@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #181A20;
+    height: 100svh;
+}
+
+.logo{
+    height: 2rem;
+    width: 8rem;
+}
+.globe{
+    color: #ebebebaf;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 900;
+    
+}
+.sun{
+    color: #ebebebaf;
+    transition: all 0.3s ease-in-out;
+}
+
+#language::-webkit-scrollbar {
+    width: 8px; 
+  }
+  
+#language::-webkit-scrollbar-track {
+    background: #292c36; 
+    
+  }
+  
+#language::-webkit-scrollbar-thumb {
+    background: #474d57;
+    
+  }
+  
+#language::-webkit-scrollbar-thumb:hover {
+    background: #7c7e86;
+  }
+  .lock{
+    color: #0ECB81;
+}
+input{
+    border: 1px solid #7c7e86;
+    background: transparent;
+    width: 26rem;
+    padding: 1rem 1.45rem;
+    transition: all 0.3s ease-in-out;
+    border-radius: 3px;
+    color: white;
+    display: block;
+}
+
+input:hover{
+    border: 1px solid #f19c09;
+}
+#next{
+    background: #FCD535;
+    color: black;
+    text-align: center;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 10px;
+    width: 26rem;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#next:hover{
+    background: #ca902b;
+    cursor: pointer;
+}
+.line{
+    box-sizing: border-box;
+    background-color: #474d57;
+    margin: 0;
+    height: 1px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+.line-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#Слой_1{
+    width: 2rem;
+}
+button{
+    background: #474D57;
+}
+button:hover{
+    cursor: pointer;
+}
+#link{
+    color: #f19c09;
+    display: block;
+    text-decoration: none;
+}
+#link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+@media (min-width: 800px) {
+    .line-container{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 27rem;
+    }
+  }
+
+  .css-1w9d35c {
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(132, 142, 156);
+}
+
+  /* Styles for screens between 768px and 991.98px */
+/* @media (min-width: 1000px){
+    section{
+       display: flex;
+       flex-direction: row;
+        width: 100%;
+        border: 2px solid red;
+        padding: none;
+        gap: 20rem;
+        height: fit-content;
+    }
+    .my-action{
+        margin-left: 39rem;
+        margin-bottom: 40rem;
+    }
+  } */
