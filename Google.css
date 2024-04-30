@@ -46,14 +46,15 @@ body {
 }
 
 .box .inputbox input {
-    width: 100%;
-    padding: 0.525rem 10px;
+    width:calc(100% - 20px) ;
+    padding: 0.525rem 20px;
     font-size: 1rem;
     letter-spacing: 0.062rem;
     margin-bottom: 1.875rem;
     border: 1px solid #ccc;
     background: transparent;
     border-radius: 5px;
+
 }
 
 .box .inputbox label {
@@ -65,6 +66,15 @@ body {
     color: #ccc;
     pointer-events: none;
     transition: 0.3s;
+}
+.eye-icon {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 20%;
+    right: 5px; /* Adjust as needed */
+    transform: translateY(-50%);
+    cursor: pointer;
 }
 
 .forgot {
@@ -97,6 +107,7 @@ body {
     border-radius: 0.312rem;
     font-size: 0.8rem;
     float: right;
+   
 }
 
 .box input[type="submit"]:hover {
@@ -126,6 +137,10 @@ body {
     .box {
         width: 80%;
         padding: 2rem;
+    }
+    .box .inputbox label {
+        width: auto; /* Set width to auto for dynamic sizing */
+        padding: 0 5px; /* Adjust padding as needed */
     }
 }
 
